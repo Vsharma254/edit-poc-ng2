@@ -3,7 +3,15 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 Simple app to Update employee name and at the same time show the list in two different component.
 While editing name list should not change, after clicking on update it should reflect in both list.
-Used index to get the edited employee and update employee name with index from other employee.
+Used index to get the edited employee and update employee name with index from other component.
+ 
+* First create service with list of employee
+* Create two component to display Employee, one is to edit and other for details
+* Add edit button in edit component and pass employee name and index when user click in edit
+* Add one event emitter in Edit component to emit edited employee data to parent
+* Capture event in parent event and bind the details 'name' to text box to make that editable.
+* Call method of service when user click on update button and update array of object based on index.
+* Now changes will reflect on both component.
 
 ## Development server
 
