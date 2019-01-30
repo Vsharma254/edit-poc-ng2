@@ -1,6 +1,9 @@
 # EditPoc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
+Simple app to Update employee name and at the same time show the list in two different component.
+While editing name list should not change, after clicking on update it should reflect in both list.
+Used index to get the edited employee and update employee name with index from other employee.
 
 ## Development server
 
